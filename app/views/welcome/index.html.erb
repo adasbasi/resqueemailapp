@@ -1,0 +1,9 @@
+<%= form_tag action: 'sendmail', method: :post do %>
+	<%= label_tag "Email" %>
+	<%= text_field_tag :email %>
+	<br>
+	<%= label_tag "Time" %>
+	<%= text_field_tag :time %>
+	<br>
+	<%= submit_tag "Gönder" %>
+<% end %>
